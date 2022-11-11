@@ -1,0 +1,29 @@
+Source: maratona-kairos
+Section: misc
+Priority: optional
+Maintainer: Bruno César Ribas <bruno.ribas@unb.br>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0.1
+Vcs-Git: https://github.com/maratona-linux/maratona-kairos.git
+Vcs-Browser: https://github.com/maratona-linux/maratona-kairos
+
+Package: maratona-kairos
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, chrony
+Description: Configura fontes NTP para o chrony
+ Este pacote configura as seguintes fontes para o chrony, de modo a manter os
+ sistemas dos competidores sincronizados:
+ .
+   * fontes do ntp.br, com suporte a NTS:
+     * a.st1.ntp.br
+     * b.st1.ntp.br
+     * c.st1.ntp.br
+     * d.st1.ntp.br
+     * a.ntp.br
+     * b.ntp.br
+     * c.ntp.br
+     * gps.ntp.br
+ .
+   * servidor NTP do Maratona Linux:
+     * nutellaboot.naquadah.com.br

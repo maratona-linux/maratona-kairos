@@ -1,0 +1,4 @@
+# See dh_install(1)
+
+# ntp servers and pools for chrony
+chrony-sources/* etc/chrony/sources.d/

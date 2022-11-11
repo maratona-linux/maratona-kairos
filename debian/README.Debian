@@ -1,0 +1,6 @@
+maratona-kairos for Debian
+
+This package installs NTP sources for chrony in order to keep the machines
+synchronized
+
+ -- Davi Antônio da Silva Santos <antoniossdavi@gmail.com>  Thu, 30 Jun 2022 00:56:33 -0300
