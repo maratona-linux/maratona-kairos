@@ -1,9 +1,21 @@
 # ntp.br servers
-server a.st1.ntp.br iburst nts
-server b.st1.ntp.br iburst nts
-server c.st1.ntp.br iburst nts
-server d.st1.ntp.br iburst nts
-server a.ntp.br iburst
-server b.ntp.br iburst
-server c.ntp.br iburst
-server gps.ntp.br iburst nts
+
+# servers with nts support
+# a.st1.ntp.br
+server 200.160.7.186 iburst
+# b.st1.ntp.br
+server 201.49.148.135 iburst
+# c.st1.ntp.br
+server 200.186.125.195 iburst
+# d.st1.ntp.br
+server 200.20.186.76 iburst
+# gps.ntp.br
+server 200.160.7.193 iburst
+
+# servers without nts support
+# a.ntp.br
+server 200.160.0.8 iburst
+# b.ntp.br
+server 200.189.40.8 iburst
+# c.ntp.br
+server 200.192.232.8 iburst

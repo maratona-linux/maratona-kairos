@@ -1,2 +1,3 @@
 # Maratona Linux server
-server nutellaboot.naquadah.com.br iburst
+# nutellaboot.naquadah.com.br
+server 159.65.72.180 iburst
