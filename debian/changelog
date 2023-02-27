@@ -1,3 +1,9 @@
+maratona-kairos (20230227) jammy; urgency=medium
+
+  * Remove NTS from unsupported servers
+
+ -- Davi Antônio da Silva Santos <antoniossdavi@gmail.com>  Mon, 27 Feb 2023 10:09:49 -0300
+
 maratona-kairos (20230113) jammy; urgency=medium
 
   * Update copyright's years
