@@ -1,3 +1,9 @@
+maratona-kairos (20230227.1) jammy; urgency=medium
+
+  * Drop NTS and replace URLs by IPs
+
+ -- Davi Antônio da Silva Santos <antoniossdavi@gmail.com>  Mon, 27 Feb 2023 16:28:57 -0300
+
 maratona-kairos (20230227) jammy; urgency=medium
 
   * Remove NTS from unsupported servers
