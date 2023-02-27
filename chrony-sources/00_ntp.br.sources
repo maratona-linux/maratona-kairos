@@ -3,7 +3,7 @@ server a.st1.ntp.br iburst nts
 server b.st1.ntp.br iburst nts
 server c.st1.ntp.br iburst nts
 server d.st1.ntp.br iburst nts
-server a.ntp.br iburst nts
-server b.ntp.br iburst nts
-server c.ntp.br iburst nts
+server a.ntp.br iburst
+server b.ntp.br iburst
+server c.ntp.br iburst
 server gps.ntp.br iburst nts
